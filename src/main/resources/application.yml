@@ -1,0 +1,17 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: datarest
+  datasource:
+    url: jdbc:postgresql://dpg-d6a4fl75r7bs73fhj7mg-a.oregon-postgres.render.com:5432/datarestservice
+    username: datarestservice_user
+    password: KeY3LLublMUo7LICsqZ5AD44xAKRW6Sh
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+eureka:
+  instance:
+    hostname: localhost
